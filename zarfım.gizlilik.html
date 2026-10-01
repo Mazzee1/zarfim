@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zarfım – Gizlilik Politikası</title>
+<style>
+  :root {
+    --bg: #F2F2EE; --card: #FFFFFF; --ink: #141615; --text: #1B1D1C;
+    --muted: #5F6461; --lime: #C6F432; --accent: #4E6A00; --line: #E4E4DE;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0B0C0B; --card: #17191A; --text: #EDEEEA;
+      --muted: #A3A8A4; --accent: #C6F432; --line: #2A2D2B;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  .logo { width: 56px; height: 56px; border-radius: 15px; background: var(--ink);
+          display: grid; place-items: center; flex: none; }
+  h1 { font-size: 30px; line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
+  .date { color: var(--muted); font-size: 14px; margin: 4px 0 24px; }
+  .summary { background: var(--ink); color: #fff; border-radius: 22px; padding: 20px 22px; margin-bottom: 24px; }
+  .summary strong { color: var(--lime); }
+  .summary ul { margin: 8px 0 0; padding-left: 20px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 22px;
+            padding: 18px 22px; margin-bottom: 14px; }
+  h2 { font-size: 18px; margin: 0 0 6px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="40" height="40" viewBox="0 0 1024 1024">
+        <path d="M 605 798 A 301 301 0 1 1 798 605" fill="none" stroke="#C6F432" stroke-width="58" stroke-linecap="round"/>
+        <circle cx="512" cy="345" r="92" fill="#C6F432"/>
+        <rect x="362" y="478" width="300" height="222" rx="150" fill="#C6F432"/>
+        <rect x="362" y="590" width="300" height="110" rx="26" fill="#C6F432"/>
+        <circle cx="725" cy="725" r="134" fill="#141615"/>
+        <circle cx="725" cy="725" r="112" fill="#C6F432"/>
+        <path d="M675 727 L711 765 L779 687" fill="none" stroke="#141615" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1>Zarfım – Gizlilik Politikası</h1>
+  </header>
+  <p class="date">Son güncelleme: 1 Ekim 2026</p>
+
+  <div class="summary">
+    <strong>Kısaca:</strong> Zarfım hiçbir kişisel veriyi toplamaz, sunucuya göndermez ve kimseyle paylaşmaz.
+    <ul>
+      <li>Girdiğiniz tüm bilgiler yalnızca kendi cihazınızda saklanır.</li>
+      <li>Hesap açmanız gerekmez; reklam, analiz aracı ya da takip yoktur.</li>
+      <li>Verilerinizin yedeğini yalnızca siz alır ve saklarsınız.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>1. Uygulama hangi bilgileri saklar?</h2>
+    <p>Zarfım, kişisel bütçe, harcama, abonelik ve fatura takibi için kullanılır. Uygulamaya sizin girdiğiniz şu bilgiler <strong>yalnızca cihazınızda</strong> saklanır:</p>
+    <ul>
+      <li>Zarflar (bütçe kalemleri), gelir ve harcama kayıtları, notlar</li>
+      <li>Abonelik, fatura ve taksit bilgileri, fiyat geçmişi, birikim hedefleri</li>
+      <li>Adınız (isteğe bağlı), maaş gününüz, aylık geliriniz ve uygulama ayarları</li>
+    </ul>
+    <p>Zarfım banka hesabınıza ya da kartınıza <strong>bağlanmaz</strong>; banka şifresi, kart numarası gibi bilgiler istemez. Girdiğiniz bilgiler geliştiriciye ya da herhangi bir üçüncü tarafa <strong>iletilmez</strong>. Geliştiricinin bu verilere erişimi yoktur.</p>
+  </section>
+
+  <section>
+    <h2>2. İzinler ne için kullanılır?</h2>
+    <ul>
+      <li><strong>Bildirimler:</strong> Ödeme günü, maaş günü ve (isterseniz) akşam harcama hatırlatmaları cihazınızda planlanır; internet üzerinden gönderilmez.</li>
+      <li><strong>Şifre:</strong> Uygulama kilidi şifresi cihazınızın güvenli anahtar zincirinde (Keychain) saklanır.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Yedek ve dışa aktarma</h2>
+    <p>Yedek dosyası ve Excel (CSV) dosyası yalnızca <strong>siz istediğinizde</strong> oluşturulur ve seçtiğiniz yere (ör. iCloud Drive, Dosyalar, e-posta) gönderilir. Bu dosyaların saklanması ve paylaşılması sizin kontrolünüzdedir.</p>
+  </section>
+
+  <section>
+    <h2>4. Üçüncü taraf hizmetler, reklam ve takip</h2>
+    <p>Zarfım; reklam, analiz (analytics), çökme raporlama ya da takip amaçlı hiçbir üçüncü taraf yazılım kullanmaz. Uygulama internet bağlantısı olmadan çalışır. Zarfım Pro satın alımı Apple üzerinden yapılır; ödeme bilgileriniz uygulamaya ya da geliştiriciye iletilmez.</p>
+    <p class="muted">Apple, App Store ve TestFlight üzerinden indirme sayıları ve (izin vermeniz hâlinde) anonim kullanım istatistikleri gibi bilgileri kendi gizlilik politikası kapsamında toplayabilir. Bu bilgiler Apple tarafından işlenir.</p>
+  </section>
+
+  <section>
+    <h2>5. Verilerin silinmesi</h2>
+    <p>Tek bir harcamayı, zarfı ya da ödemeyi uygulama içinden silebilir, tüm verileri <em>Ayarlar → Tüm verileri sil</em> ile kaldırabilirsiniz. Uygulamayı cihazınızdan silmek de tüm verileri kalıcı olarak siler. Aldığınız yedek dosyaları siz silene kadar kaydettiğiniz yerde kalır.</p>
+  </section>
+
+  <section>
+    <h2>6. Çocuklar ve KVKK</h2>
+    <p>Zarfım hiçbir kullanıcıdan, çocuklar dahil, bilgi toplamaz; tüm veriler cihazda kalır. Uygulamaya başka kişilere ait bilgi giren kullanıcı, 6698 sayılı KVKK kapsamında bu bilgilerden sorumludur.</p>
+  </section>
+
+  <section>
+    <h2>7. Değişiklikler ve iletişim</h2>
+    <p>Bu politika güncellenirse yeni sürüm bu sayfada yayınlanır ve "Son güncelleme" tarihi değişir.</p>
+    <p>Sorularınız için: <a href="mailto:mazzesincar@icloud.com">mazzesincar@icloud.com</a></p>
+  </section>
+</main>
+</body>
+</html>
